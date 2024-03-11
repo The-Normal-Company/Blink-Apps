@@ -1,4 +1,5 @@
 function ensureElementsNeverShown(selectors) {
+    console.log("testing")
     // Function to force hide elements matching the selectors
     const hideElements = () => {
         selectors.forEach(selector => {

@@ -33,4 +33,4 @@ function ensureElementsNeverShown(selectors) {
 }
 
 // Execute the function with an array of selectors
-ensureElementsNeverShown(['#app', '.css-hsy0fo-DivContainer', '.css-1g4oh9d-DivOpenTikTokButtonWrapper', 'css-1g4oh9d-DivOpenTikTokButtonWrapper', 'css-py8jux-DivModalContainer']);
+ensureElementsNeverShown(['.css-hsy0fo-DivContainer', '.css-1g4oh9d-DivOpenTikTokButtonWrapper', 'css-1g4oh9d-DivOpenTikTokButtonWrapper', 'css-py8jux-DivModalContainer']);

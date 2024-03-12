@@ -1,6 +1,6 @@
 {
-    "Swipe Up": "window.scrollBy(0, -100);",
-    "Swipe Down": "window.scrollBy(0, 100);",
+    "Swipe Up": "window.scrollBy(0, -1000);",
+    "Swipe Down": "window.scrollBy(0, 1000);",
     "Swipe Left": "window.scrollBy(-100, 0);",
     "Swipe Right": "window.scrollBy(100, 0);",
     "Click": "document.elementFromPoint(x, y).click();",

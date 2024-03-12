@@ -3,6 +3,6 @@
     "Swipe Down": "var mySwiper = document.querySelector('.swiper').swiper;\nmySwiper.slidePrev()",
     "Swipe Left": "window.scrollBy(-100, 0);",
     "Swipe Right": "window.scrollBy(100, 0);",
-    "Click": "document.querySelectorAll('[data-e2e=\"like-icon\"]').forEach(element => {\n    element.click();\n});",
+    "Click": "document.querySelectorAll('.css-1mxwriy-DivFavor').forEach(element => {\n    element.click();\n});",
     "Start & End Drag": "document.dispatchEvent(new MouseEvent('mousedown', {clientX: startX, clientY: startY})); document.dispatchEvent(new MouseEvent('mousemove', {clientX: endX, clientY: endY})); document.dispatchEvent(new MouseEvent('mouseup', {clientX: endX, clientY: endY}));"
 }

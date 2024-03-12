@@ -1,0 +1,8 @@
+{
+    "Swipe Up": "window.scrollBy(0, -100);",
+    "Swipe Down": "window.scrollBy(0, 100);",
+    "Swipe Left": "window.scrollBy(-100, 0);",
+    "Swipe Right": "window.scrollBy(100, 0);",
+    "Click": "document.elementFromPoint(x, y).click();",
+    "Start & End Drag": "document.dispatchEvent(new MouseEvent('mousedown', {clientX: startX, clientY: startY})); document.dispatchEvent(new MouseEvent('mousemove', {clientX: endX, clientY: endY})); document.dispatchEvent(new MouseEvent('mouseup', {clientX: endX, clientY: endY}));"
+}
